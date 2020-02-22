@@ -17,8 +17,9 @@ def reduce(source_array, starting_point = nil)
     running_total += source_array[i]
     i += 1
   end
-  running_total
   else
+    
+  running_total
 end
 
 # def reduce(source_array, starting_value = nil) 
