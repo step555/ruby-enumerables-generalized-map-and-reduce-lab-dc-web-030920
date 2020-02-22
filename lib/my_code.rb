@@ -17,16 +17,16 @@ def reduce(source_array, starting_point = nil)
     running_total += source_array[i]
     i += 1
   end
-#   else
-#   i = 0
-#   while i < source_array.length do
-#     if yield(source_array[i]) == false
-#       return false
-#     end
-#       i += 1
-#   end
-#   return true
-# end
+  else
+  i = 0
+  while i < source_array.length do
+    if yield(source_array[i]) == false
+      return false
+    end
+      i += 1
+  end
+  return true
+end
 end
 
 # def reduce(source_array, starting_value = nil) 
