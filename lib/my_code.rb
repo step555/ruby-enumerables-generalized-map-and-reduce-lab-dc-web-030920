@@ -8,7 +8,7 @@ def map(source_array)
   array
 end
 
-def reduce(source_array, starting_point = 0)
+def reduce(source_array, starting_point = nil)
   if starting_point
     i = 0
     num1 = starting_point
@@ -28,5 +28,4 @@ def reduce(source_array, starting_point = 0)
   return true
 end
 end
-
 # returns a running total when not given a starting point
