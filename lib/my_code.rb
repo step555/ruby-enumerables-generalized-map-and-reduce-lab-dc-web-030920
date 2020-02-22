@@ -29,6 +29,8 @@ def reduce(source_array, starting_point = nil)
 end
 end
 
+# returns a running total when not given a starting point
+
 # def reduce(source_array, starting_value = nil) 
 #   if starting_value
 #   starting_value = 0
