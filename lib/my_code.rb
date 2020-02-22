@@ -18,10 +18,10 @@ def reduce(source_array, starting_point = nil)
   end
   num1
   else
-  i = 1
+  i = 0
   num1 = source_array[0]
   while i < source_array.length do
-    if yield(num1, source_array[i]) == false
+    if yield(source_array[i]) == false
       return false
     end
       i += 1
