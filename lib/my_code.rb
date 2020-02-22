@@ -8,11 +8,7 @@ def map(source_array)
   array
 end
 
-def reduce(source_array, starting_point = nil)
-  if starting_point
-    number = starting_point
-    i = 0
-  else
+def reduce(source_array, starting_point = 0)
   i = 0
   running_total = starting_point
   while i < source_array.length do
@@ -20,7 +16,6 @@ def reduce(source_array, starting_point = nil)
     i += 1
   end
   running_total
-end
 end
 
 # def reduce(source_array, starting_value = nil) 
