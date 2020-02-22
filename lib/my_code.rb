@@ -10,6 +10,8 @@ end
 
 def reduce(source_array, starting_point = nil)
   if starting_point
+    number = starting_point
+  else
   i = 0
   running_total = starting_point
   while i < source_array.length do
