@@ -9,6 +9,7 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_point = nil)
+  if starting_
   i = 0
   running_total = starting_point
   while i < source_array.length do
