@@ -26,7 +26,7 @@ def reduce(source_array, starting_point = nil)
   end
   return true
 end
-
+end
 # def reduce(source_array, starting_value = nil) 
 #   if starting_value
 #   starting_value = 0
