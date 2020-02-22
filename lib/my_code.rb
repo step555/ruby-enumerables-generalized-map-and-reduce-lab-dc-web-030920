@@ -10,6 +10,7 @@ end
 
 def reduce(source_array, starting_point = nil)
   if starting_point
+    starting_point = 0
     num1 = starting_point
     i = 0
   running_total = starting_point
