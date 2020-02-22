@@ -8,22 +8,7 @@ def map(source_array)
   array
 end
 
-def reduce(source_array, starting_point = nil)
-  if starting_point
-    i = 0
-    num1 = starting_point
-  else
-    num1 = source_array[0]
-    i = 1
-  end
-  while i < source_array.length do
-    if yield(num1, source_array[i]) == false
-      return false
-    end
-      i += 1
-  end
-  return true
-end
+
 
 
 
